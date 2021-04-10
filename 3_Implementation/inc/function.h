@@ -9,7 +9,50 @@
  * 
  */
 
+#ifndef __HEADER_H__
+#define __HEADER_H__
 
+
+
+/**
+ * @brief 
+ * 
+ */
 void Environment(char[], char[]);
+
+/**
+ * @brief 
+ * 
+ */
 void LoadingIcon();
+
+/**
+ * @brief 
+ * 
+ */
 void Rock_Paper_Scissor(char[], char[]);
+
+/**
+ * @brief 
+ * 
+ * @param square 
+ * @return int 
+ */
+int checkWin(char * square);
+
+
+
+
+/**
+ * @brief 
+ * 
+ * @param square 
+ */
+void drawBoard(char * square);
+
+
+
+
+#endif
+
+

@@ -6,12 +6,12 @@ BUILD = build
 
 # All source code files
 SRC = mainCode.c\
-src/definition.c
+src/*.c
 
 # All test source files
-TEST_SRC = src/definition.c
-# test/test_calculator_operations.c\
-# unity/unity.c\
+TEST_SRC = src/calculator_operations.c\
+test/test_calculator_operations.c\
+unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
@@ -19,9 +19,6 @@ TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 INC	= -Iinc\
 -Iunity\
 
-#Library Inlcudes
-#INCLUDE_LIBS = 
-INCLUDE_LIBS = -lcunit
 
 # Project Output name
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out

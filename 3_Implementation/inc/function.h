@@ -1,6 +1,6 @@
 /**
  * @file function.h
- * @author your name (you@domain.com)
+ * @author Vivek Tiwari (vt2174781@gmail.com)
  * @brief 
  * @version 0.1
  * @date 2021-04-09
@@ -9,8 +9,12 @@
  * 
  */
 
-#ifndef __HEADER_H__
-#define __HEADER_H__
+#ifndef __FUNCTION_H__
+#define __FUNCTION_H__
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdio_ext.h>
 
 
 
@@ -20,17 +24,20 @@
  */
 void Environment(char[], char[]);
 
+
 /**
  * @brief 
  * 
  */
 void LoadingIcon();
 
+
 /**
  * @brief 
  * 
  */
 void Rock_Paper_Scissor(char[], char[]);
+
 
 /**
  * @brief 
@@ -41,14 +48,47 @@ void Rock_Paper_Scissor(char[], char[]);
 int checkWin(char * square);
 
 
-
-
 /**
  * @brief 
  * 
  * @param square 
  */
 void drawBoard(char * square);
+
+
+/**
+*  adds the operand1 and operand2 and returns the result
+* @param[in] operand1 
+* @param[in] operand2 
+* @return Result of operand1 + operand2
+*/
+int add(int operand1, int operand2);
+
+/**
+*  subtracts the operand1, operand2 and returns the result
+* @param[in] operand1 
+* @param[in] operand2 
+* @return Result of operand1 - operand2
+*/
+int subtract(int operand1, int operand2);
+
+/**
+*  multiply the operand1, operand2 and returns the result
+* @param[in] operand1 
+* @param[in] operand2 
+* @return Result of operand1 * operand2
+*/
+int multiply(int operand1, int operand2);
+
+
+/**
+* divides the operand1 by operand2 and returns the result 
+* @param[in] operand1 
+* @param[in] operand2 
+* @return integer value of the operand1 / operand2
+* @note returns 0 for divide by 0 error
+*/
+int divide(int operand1, int operand2);
 
 
 

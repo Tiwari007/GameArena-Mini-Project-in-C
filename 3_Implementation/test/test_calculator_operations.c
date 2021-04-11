@@ -1,9 +1,9 @@
 #include "unity.h"
-#include <calculator_operations.h>
+#include "function.h"
 
 /* Modify these two lines according to the project */
-#include <calculator_operations.h>
-#define PROJECT_NAME    "Calculator"
+#include "function.h"
+#define PROJECT_NAME    "MathQuestionAnswering"
 
 /* Prototypes for all the test functions */
 void test_add(void);

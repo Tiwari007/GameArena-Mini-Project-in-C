@@ -8,7 +8,7 @@
 
 
 # How to use/run :-
-1 - After Downloading zip or Cloning Repository Go to 3_Implementation folder on linux or windowed terminal. and type the following commands.
+After Downloading zip or Cloning Repository Go to 3_Implementation folder on linux or windowed terminal. and type the following commands.
 
 * for compiling or executable type "make" command. which makes and Build folder.
 * After writing "make" command type "make run" command for see its working or for execute a program.

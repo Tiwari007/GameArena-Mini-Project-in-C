@@ -42,6 +42,15 @@ void Rock_Paper_Scissor(char[], char[]);
 /**
  * @brief 
  * 
+ * @param YourName 
+ * @param BffName 
+ */
+void List_Of_Games(char[],char[]);
+
+
+/**
+ * @brief 
+ * 
  * @param square 
  * @return int 
  */

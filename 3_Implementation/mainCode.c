@@ -46,6 +46,8 @@ int main()
 {
     system("color 02");
     char YourName[10], BffName[10] ;
+    printf("\033[36;5m\n");
+    printf("\e]50;@ARGV\a");
     pf("\n\t\t\t\t\tBefore Entering On Environment.\n \t\t\t\t   Just type Your Two favourite Character Names..\n");
     pf("\t\t\t\t\tYour First Character Name\n\t\t\t\t");
     // cppcheck-suppress invalidscanf
@@ -54,6 +56,20 @@ int main()
     // cppcheck-suppress invalidscanf
     sf("%s",BffName);
 
+
+    //this part is for writing data into CSV file
+    FILE* fptr = fopen("data.csv", "a+");
+
+    if (!fptr) {
+        // Error in file opening
+        printf("Can't open file\n");
+        return 0;
+    }
+    fprintf(fptr, "First Character Name,Second Character Name\n");
+    fprintf(fptr, "%s,%s\n", YourName, BffName);
+    printf("\nNew Account added to record");
+    fclose(fptr);
+    //Ending part writing into CSV file
 
     LoadingIcon();
     Environment(YourName, BffName);

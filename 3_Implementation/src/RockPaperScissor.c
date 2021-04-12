@@ -35,7 +35,7 @@ void Rock_Paper_Scissor(char YourName[],char BffName[]){
     else if ((in1==1 && in2==3) || (in1==3 && in2==2) || (in1==1 && in2==3)|| (in1==2 && in2==1) || (in1==3 && in2==2) || (in1==1 && in2==3)){
         printf("Congrats %s! You won!!!!",YourName);
         pf("Ok %s its all upto you your choice now. what you want to play first...\n\n",YourName);
-        List_Of_Games();
+        List_Of_Games(YourName,BffName);
     }
     
 
@@ -43,7 +43,12 @@ void Rock_Paper_Scissor(char YourName[],char BffName[]){
     else if ((in1==1 && in2==2) || (in1==3 && in2==1) || (in1==1 && in2==2)|| (in1==2 && in2==3)){
         printf("Congrats %s! You won!!!!",BffName);
         pf("Ok %s its all upto you your choice now. what you want to play first...\n\n",BffName);
-        List_Of_Games();
+        List_Of_Games(YourName,BffName);
+    }
+
+    else{
+        pf("You choose a wrong input.. Plzzz Tryy Again\n\n");
+        Rock_Paper_Scissor(YourName,BffName);
     }
     
 }

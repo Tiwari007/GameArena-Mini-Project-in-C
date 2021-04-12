@@ -9,13 +9,14 @@
 
 
 char square[10] = {'o','1','2','3','4','5','6','7','8','9'};
+int scoreA , scoreB = 0;
 
 
 
-void List_Of_Games(){
+void List_Of_Games(char YourName[],char BffName[]){
     int choice;
     
-    pf("1 -> Tic Tac Toe.\n2-> Or We can Ask one another a Mathematics Questions...\n");
+    pf("1 -> Tic Tac Toe.\n2 -> Or We can Ask one another a Mathematics Questions...\n3 -> I Don't wanna play now");
     scanf("%d", &choice);
     if(choice == 1){
         printf("So you wanna play Tic Tac Toe\n\n");
@@ -47,7 +48,7 @@ void List_Of_Games(){
 			square[9] = mark;
 			
 			else {
-				printf("Invalid option !");
+				printf("Invalid option !\n");
 				player--;
 				// getch();
 			}
@@ -57,14 +58,22 @@ void List_Of_Games(){
 	}while(i == -1);
 	
 	drawBoard(square);
-	if(i==1){
-		printf("\t\t\t\t==>Player %d won",--player);
-		// PlaySound(TEXT("C:\\Users\\dell\\Music\\win.wav"),NULL,SND_SYNC);
+	if(i==1){	
+		printf("\t\t\t\t==>Player %d won\n",--player);
+		List_Of_Games(YourName,BffName);
 	}
 	else {
-		printf("\t\t\t==>Game draw");
+		printf("\t\t\t==>Game draw\n");
 	}
     }
+	else if(choice == 3){
+		exit(0);
+	}
+	else if(choice != 1 && choice != 2 && choice != 3)	{
+		// printf("\033[31m\n");
+		printf("You type wrong choice. please try to choose right one...\n");
+		List_Of_Games(YourName,BffName);
+	}
     
     else if(choice == 2){
         printf("So you wanna play mathematics problems");

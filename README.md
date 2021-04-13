@@ -17,6 +17,25 @@ After Downloading zip or Cloning Repository Go to 3_Implementation folder on lin
 <br>
 <br>
 
+
+Build - > [![C/C++ CI](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/c-cpp.yml)
+
+<br>
+
+Code Quality Dynamic Code Analysis Valgrind - > [![Dynamic Valgrind](https://github.com/prithvisekhar/AppliedSDLC_Template/actions/workflows/CodeQuality_Dynamic.yml/badge.svg)](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/unity.yml)
+
+<br>
+
+Unity (Unit Testing) - > [![Unity - Unit Testing](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/unity.yml/badge.svg)](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/unity.yml)
+
+<br>
+
+[Git Inspector](using github.io option) - >
+
+
+<br>
+<br>
+
 ## Folder Structure
 Folder             | Description
 -------------------| -----------------------------------------

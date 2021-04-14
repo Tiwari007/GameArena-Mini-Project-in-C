@@ -10,7 +10,7 @@
 
 
 /**
- * @brief 
+ * @brief This is simple story for starting our games
  * 
  * @param YourName 
  * @param BffName 

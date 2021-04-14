@@ -1,3 +1,16 @@
+/**
+ * @file RockPaperScissor.c
+ * @author Vivek Tiwari (vt2174781@gmail.com)
+ * @brief This fuction defines a Rock Paper Scissor Game. In that one character have to choose from three option 
+ * rock
+ * paper
+ * scisoor
+ * @version 0.1
+ * @date 2021-04-13
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -8,15 +21,18 @@
 #define sf scanf
 
 /**
- * @brief 
+ * @brief This fuction defines a Rock Paper Scissor Game. In that one character have to choose from three option 
+ * rock
+ * paper
+ * scisoor
  * 
- * @param YourName 
- * @param BffName 
+ * @param YourName  Your first character name
+ * @param BffName   Your second character name
  */
 void Rock_Paper_Scissor(char YourName[],char BffName[]){
     int in1,in2;
 
-    LOOP:
+    LOOP:        //simple goto funtion for directly jumping from anywhere
     printf("%s and %s please follow the rules for the game\nPress 1 for stone\nPress 2 for paper\nPress 3 for scissors\n\n",YourName,BffName);
     printf("Now let us start the game\n");
 

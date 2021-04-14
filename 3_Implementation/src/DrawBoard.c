@@ -10,7 +10,7 @@
 
 
 /**
- * @brief 
+ * @brief this function used to draw board or we say playing are afor tic tac toe
  * 
  * @param square 
  */

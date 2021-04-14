@@ -13,6 +13,7 @@ After Downloading zip or Cloning Repository Go to 3_Implementation folder on lin
 * for compiling or executable type "make" command. which makes and Build folder.
 * After writing "make" command type "make run" command for see its working or for execute a program.
 * "make test" command for checking the unit test cases.
+* "make clean" command to delete the Build Folder.
 
 <br>
 <br>

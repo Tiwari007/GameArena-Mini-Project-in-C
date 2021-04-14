@@ -5,7 +5,8 @@
 
 
 /**
- * @brief 
+ * @brief this function is simply for showing loding icon that shows "wait for a second Loading Environment"
+ * it blinks dot after .5 seconds upto 4 dots then repeat itself 
  * 
  */
 void LoadingIcon(){

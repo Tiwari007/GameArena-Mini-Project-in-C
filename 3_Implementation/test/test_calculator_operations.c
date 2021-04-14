@@ -1,7 +1,7 @@
 #include "unity.h"
 #include "function.h"
 
-/* Modify these two lines according to the project */
+
 #include "function.h"
 #define PROJECT_NAME    "MathQuestionAnswering"
 
@@ -32,7 +32,7 @@ int main()
   return UNITY_END();
 }
 
-/* Write all the test functions */ 
+/* test functions */ 
 void test_add(void) {
   TEST_ASSERT_EQUAL(30, add(10, 20));
   

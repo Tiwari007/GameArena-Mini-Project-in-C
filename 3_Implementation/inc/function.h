@@ -1,7 +1,7 @@
 /**
  * @file function.h
  * @author Vivek Tiwari (vt2174781@gmail.com)
- * @brief 
+ * @brief here all fuction declared
  * @version 0.1
  * @date 2021-04-09
  * 
@@ -26,21 +26,21 @@ void Environment(char[], char[]);
 
 
 /**
- * @brief 
+ * @brief function to show loading icon
  * 
  */
 void LoadingIcon();
 
 
 /**
- * @brief 
+ * @brief function to play rock paper scissor game 
  * 
  */
 void Rock_Paper_Scissor(char[], char[]);
 
 
 /**
- * @brief 
+ * @brief fuction to show list of games for playing
  * 
  * @param YourName 
  * @param BffName 
@@ -49,7 +49,9 @@ void List_Of_Games(char[],char[]);
 
 
 /**
- * @brief 
+ * @brief function to decide who is winner
+ * here player 1 - > Your name
+ * And player 2 - > Bffname
  * 
  * @param square 
  * @return int 
@@ -58,7 +60,7 @@ int checkWin(char * square);
 
 
 /**
- * @brief 
+ * @brief funtion to draw playing area for tic tac toe game
  * 
  * @param square 
  */

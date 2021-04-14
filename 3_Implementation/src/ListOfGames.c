@@ -1,3 +1,15 @@
+/**
+ * @file ListOfGames.c
+ * @author Vivek Tiwari (vt2174781@gmail.com)
+ * @brief This function shows the list of games which character plays. whether he plays 
+ * TIC TAC TOE 
+ * Or simple Math Quastionaire
+ * @version 0.1
+ * @date 2021-04-13
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -7,12 +19,19 @@
 #define pf printf
 #define sf scanf
 
-
+//square matrix 1- 9 decide 9 spots for tic tac toe where people play with circle or crosses
 char square[10] = {'o','1','2','3','4','5','6','7','8','9'};
 int scoreA , scoreB = 0;
 
 
-
+/**
+ * @brief This function shows the list of games which character plays. whether he plays 
+ * TIC TAC TOE 
+ * Or simple Math Quastionaire
+ * 
+ * @param YourName 
+ * @param BffName 
+ */
 void List_Of_Games(char YourName[],char BffName[]){
     int choice;
     

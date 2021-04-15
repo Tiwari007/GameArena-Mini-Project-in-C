@@ -109,7 +109,7 @@ void calculator_menu(void)
     printf("\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Exit (Don't wanna play now");
     printf("\n\tEnter your choice to play Questionaire\n");
    
-     __fpurge(stdin);
+    //  __fpurge(stdin);
     scanf("%d", &calculator_operation);
 
     if(EXIT == calculator_operation)
@@ -122,13 +122,13 @@ void calculator_menu(void)
     if(INVALID != valid_operation(calculator_operation))
     {
         printf("\n\tLet's give you a number\n");
-        __fpurge(stdin);
+        // __fpurge(stdin);
         scanf("%d %d", &calculator_operand1, &calculator_operand2);
     }
     else
     {
         printf("\n\t---Wrong choice---\nEnter to continue\n");
-        __fpurge(stdin);
+        // __fpurge(stdin);
         getchar();
         return;
         
@@ -137,7 +137,7 @@ void calculator_menu(void)
     {
         case ADD:                                                           //case for addition of two numbers 
             printf("Enter your Answer : - \n");
-            __fpurge(stdin);
+            // __fpurge(stdin);
             scanf("%d", &result_Math_Quastionaire);
 
             if( add(calculator_operand1, calculator_operand2) == result_Math_Quastionaire)
@@ -151,13 +151,13 @@ void calculator_menu(void)
             
 
 
-            __fpurge(stdin);
+            // __fpurge(stdin);
             getchar();
             break;
         case SUBTRACT:                                                       //case for Subtraction of two numbers 
 
             printf("Enter your Answer : - \n");
-            __fpurge(stdin);
+            // __fpurge(stdin);
             scanf("%d", &result_Math_Quastionaire);
 
             if( add(calculator_operand1, calculator_operand2) == result_Math_Quastionaire)
@@ -172,13 +172,13 @@ void calculator_menu(void)
             calculator_operand2,
             subtract(calculator_operand1, calculator_operand2));
             
-            __fpurge(stdin);
+            // __fpurge(stdin);
             getchar();
             break;
         case MULTIPLY:                                                      //case for Multiplication of two numbers 
 
             printf("Enter your Answer : - \n");
-            __fpurge(stdin);
+            // __fpurge(stdin);
             scanf("%d", &result_Math_Quastionaire);
 
             if( add(calculator_operand1, calculator_operand2) == result_Math_Quastionaire)
@@ -193,13 +193,13 @@ void calculator_menu(void)
             calculator_operand2,
             multiply(calculator_operand1, calculator_operand2));
             
-            __fpurge(stdin);
+            // __fpurge(stdin);
             getchar();
             break;
         case DIVIDE:                                                        //case for Division of two numbers 
 
             printf("Enter your Answer : - \n");
-            __fpurge(stdin);
+            // __fpurge(stdin);
             scanf("%d", &result_Math_Quastionaire);
 
             if( add(calculator_operand1, calculator_operand2) == result_Math_Quastionaire)
@@ -214,7 +214,7 @@ void calculator_menu(void)
             calculator_operand2,
             divide(calculator_operand1, calculator_operand2));
             
-            __fpurge(stdin);
+            // __fpurge(stdin);
             getchar();
             break;
         case 5:

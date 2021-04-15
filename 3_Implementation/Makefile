@@ -13,6 +13,21 @@ TEST_SRC = src/calculator_operations.c\
 test/test_calculator_operations.c\
 unity/unity.c\
 
+
+# To Check OS is Windows or Linux
+
+ifdef OS
+	RM = del /q
+	FixPath = $(subst /,\,$1)
+	EXEC = exe
+else
+	ifeq ($(shell uname), Linux)
+		RM = rm -rf
+		FixPath = $1
+		EXEC = out
+	endif
+endif
+
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
@@ -33,11 +48,11 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
+	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).$(EXEC)
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
+	$(FixPath)$(PROJECT_OUTPUT).$(EXEC)
 
 # Document the code using Doxygen
 doc:
@@ -50,7 +65,15 @@ test:$(BUILD)
 
 # Remove all the built files, invoke by `make clean`
 clean:
-	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
+	$(RM) $(BUILD) $(documentation)
+
+
+#Coverage
+coverageCheck:$(BUILD)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
+
+
 
 # Create new build folder if not present
 $(BUILD):

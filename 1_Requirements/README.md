@@ -6,7 +6,7 @@
 
 <br>
 
-*  ![Rock_Paper_Scissor Image](https://github.com/Tiwari007/L-T-Miniproject-in-C/tree/master/6_ImagesAndVideos/Rock_Paper.png?raw=true)
+*  ![Rock_Paper_Scissor Image](https://github.com/Tiwari007/L-T-Miniproject-in-C/blob/master/6_ImagesAndVideos/Rock_Paper.png?raw=true)
 
 <br>
 
@@ -14,7 +14,7 @@
 
 <br>
 
-*   ![Tic_Tac_Toe Image](https://github.com/Tiwari007/L-T-Miniproject-in-C/tree/master/6_ImagesAndVideos/Tic_Tac.jpg?raw=true)
+*   ![Tic_Tac_Toe Image](https://github.com/Tiwari007/L-T-Miniproject-in-C/blob/master/6_ImagesAndVideos/Tic_Tac.jpg?raw=true)
 
 <br>
 

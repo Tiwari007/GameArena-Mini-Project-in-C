@@ -27,11 +27,15 @@ Code Quality Dynamic Code Analysis Valgrind - > [![Dynamic Valgrind](https://git
 
 <br>
 
+Code Quality Static Check cppcheck - > [![Code Quality - Static Code - Cppcheck](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/cppcheck.yml)
+
+<br>
+
 Unity (Unit Testing) - > [![Unity - Unit Testing](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/unity.yml/badge.svg)](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/unity.yml)
 
 <br>
 
-[Git Inspector](using github.io option) - >
+[Git Inspector](using github.io option) - > [![Contribution Check - Git Inspector](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/gitInspector.yml/badge.svg)](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/gitInspector.yml)
 
 
 <br>

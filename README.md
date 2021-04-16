@@ -80,8 +80,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 2. Unit Test Case
 3. while creating makefile
 
-<br>
-<br>
+
 
 
 <br>
@@ -91,14 +90,10 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [git inspector](https://github.com/ejwa/gitinspector.git)
 4. [github workflow](https://docs.github.com/en/actions/)
-<<<<<<< HEAD
-
-
 
 ## SWOT Analysis
 
 <br>
 
 ![SWOT](https://github.com/Tiwari007/L-T-Miniproject-in-C/blob/master/6_ImagesAndVideos/SWOT.jpg?raw=true)
-=======
->>>>>>> 27dd1def5c25fcb67d374d2586747a83c54861f7
+

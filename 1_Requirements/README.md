@@ -124,7 +124,7 @@ The necessary header files must be added to perform dynamic memory allocation, s
 
 <br>
 
-![SWOT](https://miro.medium.com/max/1396/1*Yf7Ku0L_P7wTaYJ4QCHxUw.png)
+![SWOT](https://github.com/Tiwari007/L-T-Miniproject-in-C/blob/master/6_ImagesAndVideos/SWOT.jpg?raw=true)
 
   
 

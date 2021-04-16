@@ -1,3 +1,8 @@
+
+https://user-images.githubusercontent.com/33014036/114973200-9910c800-9e9d-11eb-9c25-5081717abde2.mp4
+
+
+
 # LTTS MINI PROJECT - > GameArea
 
 
@@ -86,6 +91,7 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [git inspector](https://github.com/ejwa/gitinspector.git)
 4. [github workflow](https://docs.github.com/en/actions/)
+<<<<<<< HEAD
 
 
 
@@ -94,3 +100,5 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 <br>
 
 ![SWOT](https://github.com/Tiwari007/L-T-Miniproject-in-C/blob/master/6_ImagesAndVideos/SWOT.jpg?raw=true)
+=======
+>>>>>>> 27dd1def5c25fcb67d374d2586747a83c54861f7

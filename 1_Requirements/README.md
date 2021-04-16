@@ -120,11 +120,6 @@ The necessary header files must be added to perform dynamic memory allocation, s
 
 <br>
 
-## SWOT Analysis
-
-<br>
-
-![SWOT](https://github.com/Tiwari007/L-T-Miniproject-in-C/blob/master/6_ImagesAndVideos/SWOT.jpg?raw=true)
 
   
 

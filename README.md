@@ -31,6 +31,10 @@ Code Quality Static Check cppcheck - > [![Code Quality - Static Code - Cppcheck]
 
 <br>
 
+Code Coverage - > [![CI-Coverage](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/gcov.yml/badge.svg)](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/gcov.yml)
+
+<br>
+
 Unity (Unit Testing) - > [![Unity - Unit Testing](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/unity.yml/badge.svg)](https://github.com/Tiwari007/L-T-Miniproject-in-C/actions/workflows/unity.yml)
 
 <br>
@@ -74,8 +78,19 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 <br>
 <br>
 
+
+<br>
+
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 2. [markdownBasics](https://guides.github.com/features/mastering-markdown/)
 3. [git inspector](https://github.com/ejwa/gitinspector.git)
 4. [github workflow](https://docs.github.com/en/actions/)
+
+
+
+## SWOT Analysis
+
+<br>
+
+![SWOT](https://github.com/Tiwari007/L-T-Miniproject-in-C/blob/master/6_ImagesAndVideos/SWOT.jpg?raw=true)
